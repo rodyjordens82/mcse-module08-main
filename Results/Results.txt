@@ -1,0 +1,16 @@
+SVM - W/O Dataloader
+Best trial:
+  Value: 184927296.0
+  Params:
+        learning_rate: 0.013715960932972423
+        weight_decay: 0.003008486303109248
+        epochs: 49
+ANN - W/O Dataloader
+Best trial:
+  Value: 184927296.0
+  Params:
+        hidden_size: 52
+        learning_rate: 0.00139089817931236
+        weight_decay: 0.00921546221157035
+        epochs: 193
+        
