@@ -1,0 +1,111 @@
+103793.15840     Testing models
+103793.15937     Testing LSTM
+103852.26346     Testing ANN
+103852.53948     Testing SVM
+103852.58246     Calculating metrics
+Accuracy_LSTM Train:    0.929097        Precision_LSTM Train:   0.499948
+Recall_LSTM Train:      0.499948        F1_LSTM Train:          0.499948
+AUC_LSTM Train:         0.499948
+Matrix_LSTM Train:
+[[   14693   385508]
+ [  385773 10091978]]
+Accuracy_ANN Train:     0.999358        Precision_ANN Train:    0.996929
+Recall_ANN Train:       0.993991        F1_ANN Train:           0.995455
+AUC_ANN Train:  0.993991
+Matrix_ANN Train:
+[[  395478     4723]
+ [    2264 10475487]]
+c:\Users\rodyj\miniconda3\envs\python3.11\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Accuracy_SVM Train:     0.036790        Precision_SVM Train:    0.018395
+Recall_SVM Train:       0.500000        F1_SVM Train:           0.035485
+AUC_SVM Train:  0.500000
+Matrix_SVM Train:
+[[  400201        0]
+ [10477751        0]]
+Accuracy_LSTM Test:     0.999765        Precision_LSTM Test:    0.998264
+Recall_LSTM Test:       0.998440        F1_LSTM Test:           0.998352
+AUC_LSTM Test:  0.998440
+Matrix_LSTM Test:
+[[ 100340     301]
+ [    338 2618509]]
+Accuracy_ANN Test:      0.999348        Precision_ANN Test:     0.996864
+Recall_ANN Test:        0.993977        F1_ANN Test:            0.995416
+AUC_ANN Test:   0.993977
+Matrix_ANN Test:
+[[  99451    1190]
+ [    582 2618265]]
+Accuracy_SVM Test:      0.024972        Precision_SVM Test:     0.012638
+Recall_SVM Test:        0.337392        F1_SVM Test:            0.024364
+AUC_SVM Test:   0.337392
+Matrix_SVM Test:
+[[  67911   32730]
+ [2618847       0]]
+103901.53060     Loading encoded dataset from .\encoded_dataset2.pkl
+103901.73373     Testing LSTM
+103938.39146     Testing ANN
+103938.47546     Testing SVM
+103938.48310     Calculating validation metrics
+Accuracy_LSTM Validate: 0.381735        Precision_LSTM Validate:        0.491883
+Recall_LSTM Validate:   0.432040        F1_LSTM Validate:               0.293429
+AUC_LSTM Validate:      0.432040
+Matrix_LSTM Validate:
+[[ 2202  2334]
+ [94179 57388]]
+Accuracy_ANN Validate:  0.129113        Precision_ANN Validate:         0.447506
+Recall_ANN Validate:    0.287193        F1_ANN Validate:                0.119836
+AUC_ANN Validate:       0.287193
+Matrix_ANN Validate:
+[[  2064   2472]
+ [133476  18091]]
+Accuracy_SVM Validate:  0.029039        Precision_SVM Validate:         0.014520
+Recall_SVM Validate:    0.499669        F1_SVM Validate:                0.028219
+AUC_SVM Validate:       0.499669
+Matrix_SVM Validate:
+[[  4533      3]
+ [151567      0]]
+103939.20378     Training Meta-Learner
+103939.20479     Training MetaLearner
+103970.86002     Epoch [10/200], Loss: 0.1698561
+103998.57443     Epoch [20/200], Loss: 0.0905181
+104026.32184     Epoch [30/200], Loss: 0.0673837
+104054.05112     Epoch [40/200], Loss: 0.0279561
+104081.76369     Epoch [50/200], Loss: 0.0122443
+104110.53873     Epoch [60/200], Loss: 0.0072759
+104138.32484     Epoch [70/200], Loss: 0.0059571
+104166.06555     Epoch [80/200], Loss: 0.0054040
+104193.80311     Epoch [90/200], Loss: 0.0052429
+104221.55620     Epoch [100/200], Loss: 0.0051925
+104249.26751     Epoch [110/200], Loss: 0.0051396
+104277.00001     Epoch [120/200], Loss: 0.0051488
+104304.71602     Epoch [130/200], Loss: 0.0051412
+104332.42964     Epoch [140/200], Loss: 0.0051394
+104360.11392     Epoch [150/200], Loss: 0.0051351
+104387.84382     Epoch [160/200], Loss: 0.0051285
+104415.59182     Epoch [170/200], Loss: 0.0051244
+104443.33194     Epoch [180/200], Loss: 0.0051210
+104471.05290     Epoch [190/200], Loss: 0.0051175
+104498.78817     Epoch [200/200], Loss: 0.0051119
+104498.88618     Testing MetaLeaner
+104498.89318     Testing MetaLeaner
+104498.93615     Calculating metrics for Meta-Learner
+Accuracy_Meta-Learner Train:    0.999358        Precision_Meta-Learner Train:   0.996929
+Recall_Meta-Learner Train:      0.993991        F1_Meta-Learner Train:          0.995455
+AUC_Meta-Learner Train:         0.993991
+Matrix_Meta-Learner Train:
+[[  395478     4723]
+ [    2264 10475487]]
+Accuracy_Meta-Learner Test:     0.999348        Precision_Meta-Learner Test:    0.996864
+Recall_Meta-Learner Test:       0.993977        F1_Meta-Learner Test:           0.995416
+AUC_Meta-Learner Test:  0.993977
+Matrix_Meta-Learner Test:
+[[  99451    1190]
+ [    582 2618265]]
+104515.85283     Evaluating MetaLeaner
+104515.95087     Calculating validation metrics for Meta-Learner
+Accuracy_Meta-Learner Validate: 0.129113        Precision_Meta-Learner Validate:        0.447506
+Recall_Meta-Learner Validate:   0.287193        F1_Meta-Learner Validate:               0.119836
+AUC_Meta-Learner Validate:      0.287193
+Matrix_Meta-Learner Validate:
+[[  2064   2472]
+ [133476  18091]]
